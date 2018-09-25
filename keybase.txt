@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/markgandolfo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://markgandolfo.com
+  * I am markgandolfo (https://keybase.io/markgandolfo) on keybase.
+  * I have a public key ASDKU_W7G8eMSCPNT5RuY9y4V4_ir2p2SvB8p3gskvlvyQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120ca53f5bb1bc78c4823cd4f946e63dcb8578fe2af6a764af07ca7782c92f96fc90a",
+            "host": "keybase.io",
+            "kid": "0120ca53f5bb1bc78c4823cd4f946e63dcb8578fe2af6a764af07ca7782c92f96fc90a",
+            "uid": "810e6ef7eedc03c9fb59ba3e34fbe500",
+            "username": "markgandolfo"
+        },
+        "service": {
+            "hostname": "markgandolfo.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.23"
+    },
+    "ctime": 1496909896,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1496909878,
+        "hash": "560b418b7ea28f191875fc0e8c7c4d3dbeff4e7ddeae82bbcaccf492f6b6b76c172b2d9620dd719461ea2e5dadd6665db69730dd9d48b90fe13f85cd1ae1f263",
+        "seqno": 1151961
+    },
+    "prev": "ebd698371502d945993111c81c47f5420ac3bd625878659a1704b961a6ec23c1",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgylP1uxvHjEgjzU+UbmPcuFeP4q9qdkrwfKd4LJL5b8kKp3BheWxvYWTFAv17ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwY2E1M2Y1YmIxYmM3OGM0ODIzY2Q0Zjk0NmU2M2RjYjg1NzhmZTJhZjZhNzY0YWYwN2NhNzc4MmM5MmY5NmZjOTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwY2E1M2Y1YmIxYmM3OGM0ODIzY2Q0Zjk0NmU2M2RjYjg1NzhmZTJhZjZhNzY0YWYwN2NhNzc4MmM5MmY5NmZjOTBhIiwidWlkIjoiODEwZTZlZjdlZWRjMDNjOWZiNTliYTNlMzRmYmU1MDAiLCJ1c2VybmFtZSI6Im1hcmtnYW5kb2xmbyJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoibWFya2dhbmRvbGZvLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjMifSwiY3RpbWUiOjE0OTY5MDk4OTYsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ5NjkwOTg3OCwiaGFzaCI6IjU2MGI0MThiN2VhMjhmMTkxODc1ZmMwZThjN2M0ZDNkYmVmZjRlN2RkZWFlODJiYmNhY2NmNDkyZjZiNmI3NmMxNzJiMmQ5NjIwZGQ3MTk0NjFlYTJlNWRhZGQ2NjY1ZGI2OTczMGRkOWQ0OGI5MGZlMTNmODVjZDFhZTFmMjYzIiwic2Vxbm8iOjExNTE5NjF9LCJwcmV2IjoiZWJkNjk4MzcxNTAyZDk0NTk5MzExMWM4MWM0N2Y1NDIwYWMzYmQ2MjU4Nzg2NTlhMTcwNGI5NjFhNmVjMjNjMSIsInNlcW5vIjoxNCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEBzdGdumcLoCOYvBQyeP6LSZcuU33At9lgKUxuKG2H28fcfmusFPtQU0gkxwwX7ZbmWcvYSizT+vlAHRwhZTF8NqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgOKdw23AXhf9oMULoJnlG7eYNAbEySNmd8cKJuLnZMK6jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/markgandolfo
+
+==================================================================
