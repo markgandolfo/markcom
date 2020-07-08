@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.9d7db11c.chunk.css",
-    "main.js": "/static/js/main.24af3405.chunk.js",
-    "main.js.map": "/static/js/main.24af3405.chunk.js.map",
+    "main.js": "/static/js/main.4f577c35.chunk.js",
+    "main.js.map": "/static/js/main.4f577c35.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.56071b48.js",
     "runtime-main.js.map": "/static/js/runtime-main.56071b48.js.map",
     "static/css/2.ed8bf2fa.chunk.css": "/static/css/2.ed8bf2fa.chunk.css",
-    "static/js/2.567359a3.chunk.js": "/static/js/2.567359a3.chunk.js",
-    "static/js/2.567359a3.chunk.js.map": "/static/js/2.567359a3.chunk.js.map",
+    "static/js/2.d2928002.chunk.js": "/static/js/2.d2928002.chunk.js",
+    "static/js/2.d2928002.chunk.js.map": "/static/js/2.d2928002.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1d9129711131f6e98912a191a7b61b3c.js": "/precache-manifest.1d9129711131f6e98912a191a7b61b3c.js",
+    "precache-manifest.a45708e19b9c1d44a20c14aa537b1554.js": "/precache-manifest.a45708e19b9c1d44a20c14aa537b1554.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.ed8bf2fa.chunk.css.map": "/static/css/2.ed8bf2fa.chunk.css.map",
     "static/css/main.9d7db11c.chunk.css.map": "/static/css/main.9d7db11c.chunk.css.map",
-    "static/js/2.567359a3.chunk.js.LICENSE.txt": "/static/js/2.567359a3.chunk.js.LICENSE.txt",
+    "static/js/2.d2928002.chunk.js.LICENSE.txt": "/static/js/2.d2928002.chunk.js.LICENSE.txt",
     "static/media/001-aussiev8.jpg": "/static/media/001-aussiev8.fb911012.jpg",
     "static/media/ScrumAlliance.png": "/static/media/ScrumAlliance.69290066.png",
     "static/media/actioncoach.png": "/static/media/actioncoach.da42e346.png",
+    "static/media/antler.png": "/static/media/antler.9675b205.png",
     "static/media/apn.png": "/static/media/apn.6fc1edbf.png",
     "static/media/aussiev8-au-forum.jpg": "/static/media/aussiev8-au-forum.c14bc856.jpg",
     "static/media/background_bottom.png": "/static/media/background_bottom.baa5e99d.png",
@@ -28,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.56071b48.js",
     "static/css/2.ed8bf2fa.chunk.css",
-    "static/js/2.567359a3.chunk.js",
+    "static/js/2.d2928002.chunk.js",
     "static/css/main.9d7db11c.chunk.css",
-    "static/js/main.24af3405.chunk.js"
+    "static/js/main.4f577c35.chunk.js"
   ]
 }
