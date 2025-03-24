@@ -12,7 +12,6 @@ interface ProfileProps {
 }
 
 const Profile: React.FC<ProfileProps> = ({
-  imageUrl = "/api/placeholder/400/400",
   altText = "",
   quote = "I have over 11 years of experience as a Product Manager in rapidly growing companies & enterprise. My expertise lies in user-facing B2B products, data-driven development, roadmap planning, stakeholder management, and UX.",
   name = "",
@@ -43,7 +42,7 @@ const Profile: React.FC<ProfileProps> = ({
           
           <div className="mt-4">
             <h2 className="text-2xl text-[#54595f] font-black">{name}</h2>
-            <p className="text-base text-gray-300">{title}</p>
+            <p className="text-base text-gray-400">{title}</p>
           </div>
         </div>
       </div>

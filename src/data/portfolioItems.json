@@ -1,0 +1,53 @@
+{
+  "portfolioItems": [
+    {
+      "id": "trivago-search",
+      "title": "Trivago's best 20 hotels on every single search",
+      "description": "<p>The product <strong>trivago</strong> is a widely known global hotel metasearch.</p><p>Trivago's <a href='https://www.trivago.com' target='_blank'>hotel search</a> allows users to compare hotel prices in just a few clicks from more than 300 booking sites for more than 5.0 million hotels and other types of accommodation in over 190 countries, helping millions of travelers each year compare deals for hotels and accommodations.</p>",
+      "imageUrl": "reece-search.png",
+      "imageAlt": "Trivago hotel search interface",
+      "company": "Trivago",
+      "content": "<h3>My Role</h3><p>As the Product Owner of the Core Ranking team, I was responsible for the back-end application that exposes and ranks the hotel on every single search result.</p><p>The position was a highly technical role that involved: the understanding of machine learning algorithms, data analysis, high-traffic A/B tests, and coordination with other product teams.</p><p>Our everyday challenge was to come up with new ideas to improve our algorithm, and in consequence maximize the value of search results for trivago, advertisers, and travelers.</p><p>An example worth mentioning was the project to adapt our algorithms to alternative accommodations in search results. It involved testing our machine learning model to a sort of inventory that differs significantly from traditional hotels regarding room configurations, capacity amenities, and pricing.</p><p>Trivago has a long lasting history with the use of data and I highly recommend you read their <a href='https://tech.trivago.com/blog' target='_blank'>tech blog</a> to get a deeper view of how trivago uses data to improve its product.</p><p>I also found this <a href='https://tech.trivago.com/post/2023-02-24-ranking-algorithms' target='_blank'>article</a> which provides an example of how a ranking algorithm works.</p>"
+    },
+    {
+      "id": "nezasa",
+      "title": "Building the future of hyper-personalized travel packages at Nezasa",
+      "description": "<p>Nezasa was established in 2012 in Zurich by a group of avid travelers with strong IT skills. Their innovative idea was to simplify travel by developing technology that would remove complexity from multi-destination trip planning.</p>",
+      "imageUrl": "nezasa.png",
+      "imageAlt": "Nezasa platform screenshot showing travel packages",
+      "company": "Nezasa"
+    },
+    {
+      "id": "bmw",
+      "title": "BMW: Changing the Way the World Moves",
+      "description": "<p>Born in September 2018, Critical TechWorks is a company formed due to a partnership between BMW Group and CriticalGroup. CTW focuses exclusively on supporting BMW in developing software for its connected vehicles and mobility services.</p>",
+      "imageUrl": "bmw.png",
+      "imageAlt": "BMW concept vehicle with Critical TechWorks branding",
+      "company": "Critical TechWorks"
+    },
+    {
+      "id": "wechangers",
+      "title": "Changing the world with WeChangers",
+      "description": "<p>The product WeChangers is a start from Porto with a bold vision. \"An interdependent and sustainable world with no poverty, no inequality, and no injustice, where our economic system prioritizes people and planet over profit.\"</p>",
+      "imageUrl": "wechangers.png",
+      "imageAlt": "WeChangers platform interface",
+      "company": "WeChangers"
+    },
+    {
+      "id": "trivago-business",
+      "title": "Helping hoteliers to thrive with trivago Business Studio",
+      "description": "<p>The product When I joined trivago back in 2016, the B2B team was a relatively small team helping hoteliers to perform better at trivago hotel search. The product was called Hotel Manager and it was used by more than 300k hoteliers.</p>",
+      "imageUrl": "trivago-business.png",
+      "imageAlt": "Trivago Business Studio interface screenshot",
+      "company": "Trivago"
+    },
+    {
+      "id": "geofusion",
+      "title": "Supporting the strategy of global giants in Brazil with geomarketing",
+      "description": "<p>The product Born in 1996 in São Paulo, Geofusion is a pioneer and the leader in the geographic intelligence market in Brazil, with clients like McDonald's, Heineken, Danone, Mastercard, and other global enterprises.</p>",
+      "imageUrl": "geofusion.png",
+      "imageAlt": "Geofusion geomarketing platform interface",
+      "company": "Geofusion"
+    }
+  ]
+}

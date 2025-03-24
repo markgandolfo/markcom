@@ -1,12 +1,15 @@
 import React from 'react';
 
+interface HeaderLink {
+  label: string;
+  href: string;
+  onClick?: () => void;
+}
+
 interface HeaderProps {
   name?: string;
   title?: string;
-  links?: Array<{
-    label: string;
-    href: string;
-  }>;
+  links?: HeaderLink[];
 }
 
 const Header: React.FC<HeaderProps> = ({ 
@@ -21,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({
     <header className="py-6 px-4 border-b border-gray-200">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <div>
-          <h1 className="text-xl font-semibold text-gray-800">{name}</h1>
+          <a href="/"><h1 className="text-xl font-semibold text-gray-800">{name}</h1></a>
           <p className="text-sm text-gray-600">{title}</p>
         </div>
         <nav>
@@ -31,6 +34,12 @@ const Header: React.FC<HeaderProps> = ({
                 <a 
                   href={link.href} 
                   className="text-gray-800 hover:text-gray-600 transition-colors"
+                  onClick={(e) => {
+                    if (link.onClick) {
+                      e.preventDefault();
+                      link.onClick();
+                    }
+                  }}
                 >
                   {link.label}
                 </a>
