@@ -1,13 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header.tsx';
-import ProfileSection from './components/Profile.tsx';
-import Subheading from './components/Subheading.tsx';
-import PortfolioList from './components/PortfolioList';
-import CompanyList from './components/CompanyList.tsx';
+import HomePage from './pages/HomePage.tsx';
 import BookShelfPage from './pages/BookShelfPage.tsx';
-import { CompaniesSection } from './components/CompanyList.tsx';
 import PortfolioItemDetail from './components/PortfolioItemDetail.tsx';
-import ContactSection from './components/ContactSection.tsx';
 
 import './App.css';
 
@@ -101,15 +96,7 @@ function App() {
   const renderContent = () => {
     switch (currentView) {
       case 'home':
-        return (
-          <>
-            <ProfileSection />
-            <PortfolioList onItemClick={handlePortfolioClick} />
-            <Subheading text="COMPANIES"/>
-            <CompaniesSection />
-            <ContactSection />
-          </>
-        );
+        return <HomePage onPortfolioItemClick={handlePortfolioClick} />;
       case 'portfolio-detail':
         return selectedPortfolioId ? (
           <PortfolioItemDetail 
