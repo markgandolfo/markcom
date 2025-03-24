@@ -3,65 +3,38 @@
       {
         "id": "1",
         "title": "The Lean Startup",
-        "author": "Eric Ries",
         "imageUrl": "images/books/the-lean-startup.jpg",
-        "amazonUrl": "https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898"
+        "url": "https://www.goodreads.com/book/show/10127019-the-lean-startup"
       },
       {
         "id": "2",
         "title": "Inspired",
-        "author": "Marty Cagan",
         "imageUrl": "images/books/inspired.jpg",
-        "amazonUrl": "https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507"
+        "url": "https://www.goodreads.com/book/show/35249663-inspired"
       },
       {
         "id": "3",
-        "title": "Gestão de produtos",
-        "author": "Joaquim Torres",
-        "imageUrl": "images/books/gestao-de-produtos.jpg",
-        "amazonUrl": "https://www.amazon.com/dp/B07YN5LL6G"
+        "title": "The Design of Everyday Things",
+        "imageUrl": "images/books/design-everyday-things.jpg",
+        "url": "https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things"
       },
       {
         "id": "4",
-        "title": "Anabasis",
-        "author": "Xenophon",
-        "imageUrl": "images/books/anabasis.jpg",
-        "amazonUrl": "https://www.amazon.com/Anabasis-Xenophon/dp/0674991001"
+        "title": "Hooked",
+        "imageUrl": "images/books/hooked.jpg",
+        "url": "https://www.goodreads.com/book/show/22668729-hooked"
       },
       {
         "id": "5",
-        "title": "The Design of Everyday Things",
-        "author": "Don Norman",
-        "imageUrl": "images/books/design-everyday-things.jpg",
-        "amazonUrl": "https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654"
+        "title": "What You Do Is Who You Are | Ben Horowitz",
+        "imageUrl": "images/books/what-you-do-is-who-you-are.jpg",
+        "url": "https://www.goodreads.com/en/book/show/44063692"
       },
       {
         "id": "6",
-        "title": "How Google Works",
-        "author": "Eric Schmidt & Jonathan Rosenberg",
-        "imageUrl": "images/books/how-google-works.jpg",
-        "amazonUrl": "https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344"
-      },
-      {
-        "id": "7",
-        "title": "Hooked",
-        "author": "Nir Eyal",
-        "imageUrl": "images/books/hooked.jpg",
-        "amazonUrl": "https://www.amazon.com/Hooked-How-Build-Habit-Forming-Products/dp/1591847788"
-      },
-      {
-        "id": "8",
-        "title": "The Organization Man",
-        "author": "William H. Whyte",
-        "imageUrl": "images/books/organization-man.jpg",
-        "amazonUrl": "https://www.amazon.com/Organization-Man-William-H-Whyte/dp/0812218191"
-      },
-      {
-        "id": "9",
-        "title": "Unleash the Power of Storytelling",
-        "author": "Rob Biesenbach",
-        "imageUrl": "images/books/unleash-power-storytelling.jpg",
-        "amazonUrl": "https://www.amazon.com/Unleash-Power-Storytelling-Business-Communication/dp/0991081420"
+        "title": "Empowered | Marty Cagan",
+        "imageUrl": "images/books/empowered.jpg",
+        "url": "https://www.goodreads.com/book/show/53481975-empowered"
       }
     ]
   }

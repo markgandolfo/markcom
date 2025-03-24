@@ -5,9 +5,8 @@ import Subheading from './Subheading';
 interface BookData {
   id: string;
   title: string;
-  author: string;
   imageUrl: string;
-  amazonUrl?: string;
+  url?: string;
 }
 
 interface BookshelfListProps {
@@ -35,8 +34,7 @@ const BookshelfList: React.FC<BookshelfListProps> = ({
             <Book
               imageUrl={book.imageUrl}
               title={book.title}
-              author={book.author}
-              amazonUrl={book.amazonUrl}
+              url={book.url}
             />
           </div>
         ))}

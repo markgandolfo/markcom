@@ -7,7 +7,10 @@ interface BackToHomeProps {
 }
 
 const BackToHome: React.FC<BackToHomeProps> = ({
-  onClick = () => window.history.pushState({}, '', '/'),
+  onClick = () => { 
+    window.history.pushState({}, '', '/')
+    window.scrollTo(0,0);
+  },
   className = '',
   text = 'Back to Home'
 }) => {
