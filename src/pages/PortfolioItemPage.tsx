@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import portfolioData from '../data/portfolioItems.json';
-import BackToHome from './BackToHome';
+import BackToHome from '../components/BackToHome';
 
-interface PortfolioItemData {
+interface PortfolioItemPageData {
   id: string;
   title: string;
   description: string;
@@ -12,12 +12,12 @@ interface PortfolioItemData {
   content?: string;
 }
 
-interface PortfolioItemDetailProps {
+interface PortfolioItemPageProps {
   id: string;
   onBackClick?: () => void;
 }
 
-const PortfolioItemDetail: React.FC<PortfolioItemDetailProps> = ({ 
+const PortfolioItemPage: React.FC<PortfolioItemPageProps> = ({ 
   id,
   onBackClick = () => window.history.back()
 }) => {
@@ -106,4 +106,4 @@ const PortfolioItemDetail: React.FC<PortfolioItemDetailProps> = ({
   );
 };
 
-export default PortfolioItemDetail;
+export default PortfolioItemPage;

@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Header from './components/Header.tsx';
 import HomePage from './pages/HomePage.tsx';
 import BookShelfPage from './pages/BookShelfPage.tsx';
-import PortfolioItemDetail from './components/PortfolioItemDetail.tsx';
+import PortfolioItemPage from './pages/PortfolioItemPage.tsx';
 
 import './App.css';
 
@@ -41,7 +41,7 @@ function App() {
   }, []);
 
   // Handle browser back/forward navigation
-  const handlePopState = (event: PopStateEvent) => {
+  const handlePopState = (_: PopStateEvent) => {
     const path = window.location.pathname;
     if (path === '/' || path === '') {
       setCurrentView('home');
@@ -99,7 +99,7 @@ function App() {
         return <HomePage onPortfolioItemClick={handlePortfolioClick} />;
       case 'portfolio-detail':
         return selectedPortfolioId ? (
-          <PortfolioItemDetail 
+          <PortfolioItemPage 
             id={selectedPortfolioId} 
             onBackClick={handleBackClick}
           />

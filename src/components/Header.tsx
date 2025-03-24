@@ -16,7 +16,7 @@ const Header: React.FC<HeaderProps> = ({
   name = "", 
   title = "",
   links = [
-    { label: "About Me", href: "#about" },
+    { label: "About Me", href: "/" },
     { label: "Bookshelf", href: "#bookshelf" }
   ]
 }) => {
