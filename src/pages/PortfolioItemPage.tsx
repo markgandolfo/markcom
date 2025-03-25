@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import portfolioData from '../data/portfolioItems.json';
 import BackToHome from '../components/BackToHome';
+import './PortfolioItemPage.css';
 
 interface PortfolioItemPageData {
   id: string;
