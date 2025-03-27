@@ -10,7 +10,7 @@ const Subheading: React.FC<SubheadingProps> = ({
   className = "" 
 }) => {
   return (
-    <div className={`w-full py-10 ${className}`}>
+    <div className={`w-full py-16 ${className}`}>
       <h2 className="text-2xl md:text-3xl text-center font-medium text-gray-700 uppercase">
         {text}
       </h2>

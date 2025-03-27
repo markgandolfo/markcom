@@ -1,8 +1,9 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './components/Header.tsx';
-import HomePage from './pages/HomePage.tsx';
+import HomePage from './pages/HomePage';
 import BookShelfPage from './pages/BookShelfPage.tsx';
 import PortfolioItemPage from './pages/PortfolioItemPage.tsx';
+import Footer from './components/Footer';
 
 import './App.css';
 
@@ -41,7 +42,7 @@ function App() {
   }, []);
 
   // Handle browser back/forward navigation
-  const handlePopState = (_: PopStateEvent) => {
+  const handlePopState = (event: PopStateEvent) => {
     const path = window.location.pathname;
     if (path === '/' || path === '') {
       setCurrentView('home');
@@ -99,7 +100,7 @@ function App() {
         return <HomePage onPortfolioItemClick={handlePortfolioClick} />;
       case 'portfolio-detail':
         return selectedPortfolioId ? (
-          <PortfolioItemPage 
+          <PortfolioItemPage
             id={selectedPortfolioId} 
             onBackClick={handleBackClick}
           />
@@ -110,7 +111,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white flex flex-col">
       <Header 
         name={settings.name.toUpperCase()}
         title={settings.title.toUpperCase()}
@@ -120,13 +121,15 @@ function App() {
         ]}
       />
 
-      <main>
+      <main className="flex-1">
         {renderContent()}
       </main>   
       
-      <footer className="py-6 text-center text-gray-500 text-sm">
-        © {new Date().getFullYear()} Mark Gandolfo. All rights reserved.
-      </footer>
+      <Footer 
+        linkedinUrl="https://linkedin.com/in/markgandolfo" 
+        githubUrl="https://github.com/markgandolfo" 
+        mediumUrl="https://medium.com/@markgandolfo" 
+      />
     </div>
   );
 };

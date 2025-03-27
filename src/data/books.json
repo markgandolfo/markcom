@@ -8,10 +8,71 @@
       },
       {
         "id": "2",
+        "title": "The Speed of Trust",
+        "imageUrl": "images/books/thespeedoftrust.jpg",
+        "url": "https://www.goodreads.com/book/show/36076.The_Speed_of_Trust"
+      },
+      {
+        "id": "2",
+        "title": "Radical Product Thinking",
+        "imageUrl": "images/books/radicalproductthinking.jpg",
+        "url": "https://www.goodreads.com/book/show/56705493-radical-product-thinking"
+      },
+      {
+        "id": "2",
         "title": "Inspired",
         "imageUrl": "images/books/inspired.jpg",
         "url": "https://www.goodreads.com/book/show/35249663-inspired"
       },
+      {
+        "id": "2",
+        "title": "Thinking, Fast and Slow",
+        "imageUrl": "images/books/thinkingfastandslow.jpg",
+        "url": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow"
+      },
+      {
+        "id": "2",
+        "title": "Crossing the Chasm",
+        "imageUrl": "images/books/crossingthechasm.jpg",
+        "url": "https://www.goodreads.com/book/show/61329.Crossing_the_Chasm"
+      },
+      {
+        "id": "2",
+        "title": "The Influential Product Manager",
+        "imageUrl": "images/books/theinfluentialpm.jpg",
+        "url": "https://www.goodreads.com/book/show/50245368-the-influential-product-manager"
+      },
+      {
+        "id": "2",
+        "title": "Good Strategy Bad Strategy",
+        "imageUrl": "images/books/playingtowin.jpg",
+        "url": "https://www.goodreads.com/book/show/11721966-good-strategy-bad-strategy"
+      },
+      {
+        "id": "2",
+        "title": "Playing to Win",
+        "imageUrl": "images/books/goodstrat.jpg",
+        "url": "https://www.goodreads.com/book/show/13586928-playing-to-win"
+      },      
+      {
+        "id": "thepmsurvivalguide.jpg",
+        "title": "The PMs survival guide",
+        "imageUrl": "images/books/thepmsurvivalguide.jpg",
+        "url": "https://www.goodreads.com/book/show/17118699-the-product-manager-s-survival-guide"
+      },
+      {
+        "id": "thepmsurvivalguide.jpg",
+        "title": "The Mythical Man-Month",
+        "imageUrl": "images/books/themythicalmanmonth.jpg",
+        "url": "https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month"
+      },      
+      {
+        "id": "accelerate.jpg",
+        "title": "The PMs survival guide",
+        "imageUrl": "images/books/accelerate.jpg",
+        "url": "https://www.goodreads.com/book/show/35747076-accelerate"
+      },
+
       {
         "id": "3",
         "title": "The Design of Everyday Things",

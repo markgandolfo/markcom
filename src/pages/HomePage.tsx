@@ -15,7 +15,7 @@ const HomePage: React.FC<HomePageProps> = ({ onPortfolioItemClick }) => {
       <ProfileSection />
       <Subheading text="PRODUCTS I'VE WORKED ON" />
       <PortfolioList onItemClick={onPortfolioItemClick} />
-      <Subheading text="COMPANIES"/>
+      <Subheading text="COMPANIES I'VE WORKED WITH"/>
       <CompaniesSection />
       <ContactSection />
     </>

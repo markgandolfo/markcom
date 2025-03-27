@@ -18,12 +18,12 @@ const BookshelfList: React.FC<BookshelfListProps> = ({
   description = "This is a short list of books that I've recently read and that has taught me so much. I hope you like it, and if possible, send me your book recommendations."
 }) => {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-4">
+    <div className="max-w-7xl mx-auto px-4 py-0">
       <div className="text-center max-w-3xl mx-auto mb-12">
         <p className="text-gray-600">{description}</p>
       </div>
       
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 md:gap-10">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-10">
         {books.map((book) => (
           <div key={book.id} className="flex justify-center">
             <Book

@@ -20,8 +20,8 @@ interface ContactSectionProps {
 
 const ContactSection: React.FC<ContactSectionProps> = ({
   title = "Get in touch",
-  linkedinUrl = "https://linkedin.com/in/yourprofile",
-  githubUrl = "https://github.com/yourusername",
+  linkedinUrl = "https://www.linkedin.com/in/magandolfo/",
+  githubUrl = "https://github.com/markgandolfo",
   mediumUrl = "https://medium.com/@yourusername",
   customLinks = []
 }) => {
@@ -41,13 +41,7 @@ const ContactSection: React.FC<ContactSectionProps> = ({
       icon: <Github size={20} />,
       ariaLabel: "Visit my GitHub profile"
     },
-    {
-      id: "medium",
-      name: "Medium",
-      url: mediumUrl,
-      icon: <FileText size={20} />,
-      ariaLabel: "Read my articles on Medium"
-    }
+
   ];
 
   // Combine default links with any custom links

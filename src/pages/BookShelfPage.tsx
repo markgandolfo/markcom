@@ -9,7 +9,7 @@ const BookShelfPage: React.FC = () => {
       <Subheading text="MY BOOKSHELF" />
       <BookshelfList 
         books={booksData.books} 
-        description="This is a short list of books that I've recently read and that has taught me so much. I hope you like it, and if possible, send me your book recommendations."
+        description="This is a short list of books that I've recently read that i've found valuable. I hope you like it, and if possible, send me your book recommendations."
       />
     </div>
   );

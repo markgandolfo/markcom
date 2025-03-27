@@ -14,8 +14,8 @@ interface ProfileProps {
 const Profile: React.FC<ProfileProps> = ({
   altText = "",
   quote = "I have over 11 years of experience as a Product Manager in rapidly growing companies & enterprise. My expertise lies in user-facing B2B products, data-driven development, roadmap planning, stakeholder management, and UX.",
-  name = "",
-  title = ""
+  name = "MARK GANDOLFO",
+  title = "LEAD PRODUCT MANAGER"
 }) => {
   return (
     <section className="py-16 px-4">
