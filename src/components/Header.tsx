@@ -30,7 +30,7 @@ const Header: React.FC<HeaderProps> = ({
         <nav>
           <ul className="flex space-x-8">
             {links.map((link, index) => (
-              <li key={index}>
+              <li key={index} className="list-none">
                 <a 
                   href={link.href} 
                   className="text-gray-800 hover:text-gray-600 transition-colors"

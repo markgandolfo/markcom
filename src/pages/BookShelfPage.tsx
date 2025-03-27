@@ -1,13 +1,14 @@
 import React from 'react';
+import Subheading from '../components/Subheading';
 import BookshelfList from '../components/BookShelfList.tsx';
 import booksData from '../data/books.json';
 
 const BookShelfPage: React.FC = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen py-8">
+      <Subheading text="MY BOOKSHELF" />
       <BookshelfList 
         books={booksData.books} 
-        title="MY SMALL BOOKSHELF"
         description="This is a short list of books that I've recently read and that has taught me so much. I hope you like it, and if possible, send me your book recommendations."
       />
     </div>

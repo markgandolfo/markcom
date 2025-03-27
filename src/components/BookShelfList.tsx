@@ -1,6 +1,5 @@
 import React from 'react';
 import Book from './Book';
-import Subheading from './Subheading';
 
 interface BookData {
   id: string;
@@ -11,19 +10,15 @@ interface BookData {
 
 interface BookshelfListProps {
   books: BookData[];
-  title?: string;
   description?: string;
 }
 
 const BookshelfList: React.FC<BookshelfListProps> = ({
   books,
-  title = "MY SMALL BOOKSHELF",
   description = "This is a short list of books that I've recently read and that has taught me so much. I hope you like it, and if possible, send me your book recommendations."
 }) => {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-12">
-      <Subheading text={title} />
-      
+    <div className="max-w-7xl mx-auto px-4 py-4">
       <div className="text-center max-w-3xl mx-auto mb-12">
         <p className="text-gray-600">{description}</p>
       </div>
