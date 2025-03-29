@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import PortfolioItem from './PortfolioItem';
 // Import the JSON data
 import portfolioData from '../data/portfolioItems.json';
@@ -22,7 +22,6 @@ interface PortfolioListProps {
 const PortfolioList: React.FC<PortfolioListProps> = ({
   // If no projects are passed as props, use the data from the JSON file
   projects = portfolioData.portfolioItems as PortfolioProject[],
-  title = "PRODUCTS I WORKED",
   onItemClick
 }) => {
   const handleItemClick = (id: string) => {

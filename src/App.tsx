@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Header from './components/Header.tsx';
 import HomePage from './pages/HomePage';
 import BookShelfPage from './pages/BookShelfPage.tsx';
@@ -42,7 +42,7 @@ function App() {
   }, []);
 
   // Handle browser back/forward navigation
-  const handlePopState = (event: PopStateEvent) => {
+  const handlePopState = (_: PopStateEvent) => {
     const path = window.location.pathname;
     if (path === '/' || path === '') {
       setCurrentView('home');
@@ -125,11 +125,7 @@ function App() {
         {renderContent()}
       </main>   
       
-      <Footer 
-        linkedinUrl="https://linkedin.com/in/markgandolfo" 
-        githubUrl="https://github.com/markgandolfo" 
-        mediumUrl="https://medium.com/@markgandolfo" 
-      />
+      <Footer />
     </div>
   );
 };

@@ -3,14 +3,16 @@ import portfolioData from '../data/portfolioItems.json';
 import BackToHome from '../components/BackToHome';
 import './PortfolioItemPage.css';
 
-interface PortfolioItemPageData {
+// Define the missing interface
+interface PortfolioItemData {
   id: string;
   title: string;
-  description: string;
   imageUrl: string;
   imageAlt?: string;
+  description: string;
   company?: string;
   content?: string;
+  // Add any other properties that might be in your portfolio items
 }
 
 interface PortfolioItemPageProps {

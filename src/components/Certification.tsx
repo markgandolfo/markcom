@@ -13,7 +13,6 @@ const Certification: React.FC<CertificationProps> = ({
   description,
   logoUrl,
   logoAlt = "Certification provider logo",
-  issuer = ""
 }) => {
   return (
     <div className="flex flex-col h-full">

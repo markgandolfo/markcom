@@ -1,6 +1,6 @@
 import React from 'react';
 import LeftAlignedHeader from './LeftAlignedHeader';
-import { Linkedin, Github, FileText } from 'lucide-react';
+import { Linkedin, Github } from 'lucide-react';
 
 interface SocialLink {
   id: string;
@@ -22,7 +22,6 @@ const ContactSection: React.FC<ContactSectionProps> = ({
   title = "Get in touch",
   linkedinUrl = "https://www.linkedin.com/in/magandolfo/",
   githubUrl = "https://github.com/markgandolfo",
-  mediumUrl = "https://medium.com/@yourusername",
   customLinks = []
 }) => {
   // Default social links
