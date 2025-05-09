@@ -1,98 +1,103 @@
 {
     "books": [
       {
-        "id": "1",
+        "id": "team_of_teams",
+        "title": "Team of Teams",
+        "imageUrl": "images/books/team-of-teams.jpg",
+        "url": "https://www.goodreads.com/review/show/7555067277"
+      },
+      {
+        "id": "the_lean_startup",
         "title": "The Lean Startup",
         "imageUrl": "images/books/the-lean-startup.jpg",
         "url": "https://www.goodreads.com/book/show/10127019-the-lean-startup"
       },
       {
-        "id": "2",
+        "id": "the_speed_of_trust",
         "title": "The Speed of Trust",
         "imageUrl": "images/books/thespeedoftrust.jpg",
         "url": "https://www.goodreads.com/book/show/36076.The_Speed_of_Trust"
       },
       {
-        "id": "2",
+        "id": "radical_product_thinking",
         "title": "Radical Product Thinking",
         "imageUrl": "images/books/radicalproductthinking.jpg",
         "url": "https://www.goodreads.com/book/show/56705493-radical-product-thinking"
       },
       {
-        "id": "2",
+        "id": "inspired",
         "title": "Inspired",
         "imageUrl": "images/books/inspired.jpg",
         "url": "https://www.goodreads.com/book/show/35249663-inspired"
       },
       {
-        "id": "2",
+        "id": "thinking_fast_and_slow",
         "title": "Thinking, Fast and Slow",
         "imageUrl": "images/books/thinkingfastandslow.jpg",
         "url": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow"
       },
       {
-        "id": "2",
+        "id": "crossing_the_chasm",
         "title": "Crossing the Chasm",
         "imageUrl": "images/books/crossingthechasm.jpg",
         "url": "https://www.goodreads.com/book/show/61329.Crossing_the_Chasm"
       },
       {
-        "id": "2",
+        "id": "the_influential_product_manager",
         "title": "The Influential Product Manager",
         "imageUrl": "images/books/theinfluentialpm.jpg",
         "url": "https://www.goodreads.com/book/show/50245368-the-influential-product-manager"
       },
       {
-        "id": "2",
+        "id": "good_strategy_bad_strategy",
         "title": "Good Strategy Bad Strategy",
         "imageUrl": "images/books/playingtowin.jpg",
         "url": "https://www.goodreads.com/book/show/11721966-good-strategy-bad-strategy"
       },
       {
-        "id": "2",
+        "id": "playing_to_win",
         "title": "Playing to Win",
         "imageUrl": "images/books/goodstrat.jpg",
         "url": "https://www.goodreads.com/book/show/13586928-playing-to-win"
       },      
       {
-        "id": "thepmsurvivalguide.jpg",
+        "id": "the_pms_survival_guide",
         "title": "The PMs survival guide",
         "imageUrl": "images/books/thepmsurvivalguide.jpg",
         "url": "https://www.goodreads.com/book/show/17118699-the-product-manager-s-survival-guide"
       },
       {
-        "id": "thepmsurvivalguide.jpg",
+        "id": "the_mythical_man_month",
         "title": "The Mythical Man-Month",
         "imageUrl": "images/books/themythicalmanmonth.jpg",
         "url": "https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month"
       },      
       {
-        "id": "accelerate.jpg",
+        "id": "accelerate",
         "title": "The PMs survival guide",
         "imageUrl": "images/books/accelerate.jpg",
         "url": "https://www.goodreads.com/book/show/35747076-accelerate"
       },
-
       {
-        "id": "3",
+        "id": "the_design_of_everyday_things",
         "title": "The Design of Everyday Things",
         "imageUrl": "images/books/design-everyday-things.jpg",
         "url": "https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things"
       },
       {
-        "id": "4",
+        "id": "hooked",
         "title": "Hooked",
         "imageUrl": "images/books/hooked.jpg",
         "url": "https://www.goodreads.com/book/show/22668729-hooked"
       },
       {
-        "id": "5",
+        "id": "what_you_do_is_who_you_are",
         "title": "What You Do Is Who You Are | Ben Horowitz",
         "imageUrl": "images/books/what-you-do-is-who-you-are.jpg",
         "url": "https://www.goodreads.com/en/book/show/44063692"
       },
       {
-        "id": "6",
+        "id": "empowered",
         "title": "Empowered | Marty Cagan",
         "imageUrl": "images/books/empowered.jpg",
         "url": "https://www.goodreads.com/book/show/53481975-empowered"

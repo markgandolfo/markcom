@@ -22,7 +22,7 @@ const BookshelfList: React.FC<BookshelfListProps> = ({
       <div className="text-center max-w-3xl mx-auto mb-12">
         <p className="text-gray-600">{description}</p>
       </div>
-      
+
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-10">
         {books.map((book) => (
           <div key={book.id} className="flex justify-center">
@@ -38,10 +38,4 @@ const BookshelfList: React.FC<BookshelfListProps> = ({
   );
 };
 
-// Example usage component
-// const ExampleBookshelf: React.FC = () => {
-//   return <BookshelfList books={books} />;
-// };
-
 export default BookshelfList;
-// export { ExampleBookshelf, type BookData };
