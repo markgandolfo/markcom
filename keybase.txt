@@ -1,0 +1,89 @@
+==================================================================
+https://keybase.io/markgandolfo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://markgandolfo.com
+  * I am markgandolfo (https://keybase.io/markgandolfo) on keybase.
+  * I have a public key with fingerprint 896B 0CD2 8938 E08E CD4B  E965 066E 3AEA E0EB 21EA
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ca53f5bb1bc78c4823cd4f946e63dcb8578fe2af6a764af07ca7782c92f96fc90a",
+      "fingerprint": "896b0cd28938e08ecd4be965066e3aeae0eb21ea",
+      "host": "keybase.io",
+      "key_id": "066e3aeae0eb21ea",
+      "kid": "01011c1d2f8761db9d6aa53a1b438a2779451730aa0390432538c960f3891094421c0a",
+      "uid": "810e6ef7eedc03c9fb59ba3e34fbe500",
+      "username": "markgandolfo"
+    },
+    "merkle_root": {
+      "ctime": 1743225746,
+      "hash_meta": "1facb070f779a9ecc26ede054a6f86eab16461ecc27dff1fc2301ebd10d68c2f",
+      "seqno": 26668491
+    },
+    "revoke": {
+      "sig_ids": [
+        "6e54edbe40812db51b8a7171adfe3600f0b1a863462104a35f5e53b1c5fdeb770f"
+      ]
+    },
+    "service": {
+      "hostname": "markgandolfo.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1743225930,
+  "expire_in": 157680000,
+  "prev": "86649da396b128f36a23499fc343e517af0da2cf0a6399104d162cd4732d4cc6",
+  "seqno": 71,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMP/AnicbVNtbBRFGL5Cr9ACSUGKlPADNk2lUMrMzu7s7kVQUUDANFK0RUo5Z2dn
+rut97HF3LS21ARKQUi0BKuHDxgYiNVJoFRIr/BDaFGgtwTSRICAtiKFYSpRgkKiA
+s1VijM6fybzzvM/7zPO+0zlupCctKSXiG7x2e/pgUk/H+jJPYGDTkirJdKxKyVcl
+BdnwxkIWiyf8QduSfBKAMqBERVw1TWhSTaeKLiNqKdxQMMPIoqauajpnMuGYaFgh
+HGiUaJouU0PmBubUAETKlbgdCbBYNGZHEoJWN7AJqCXrBtIZ0JkgNJmBVYAxQ4QR
+BpgpQ+YmljpxN0OIM0mc5dmOiImD/y95/8U/0Q0gpNCSua5haJmGhYl4BoGmgnQi
+a5qhqFBDgBCADKAgWUU6NTDgSDcgMBRFhnRYd9kwnQ4Bw4xrjFkUIGpwUzVMghhS
+uMlUAFxgnMUiJMwEOkxiwQCJWE6IO1J1rhRmsWCI+WOOk3ANpgnbhUFNlJVVTcHi
+kSRe6g+zBBHZkBNqAg1wIZIYjFIZM4sBVSGY65gRE2IFQzeuWZxDTmUEIDMtCCys
+U5kLLXG2JuJIPhljrCsGFBJirNwJMrd63A4I7+KSr1jCTFWYZTIF6FC2TBWaOtGg
+BonFGcIAcGBComOkYBkChSCVq0xFJqQqt5ipCYlSSbVbLVZu02Fyt1n/Y0IedcJC
+VjTmJBzqhMRtaSIRjftccxKVURe+lpn+v4n8ph2xxLiIjHIWi9tORJglkP/2zUAg
+V2IVUTvG/LaLUDWsA7HcOqzcbRrGimERJGYNyjpHmMhIMQxOkYKY6L4YVYvIlAOC
+kSG6rlgQy2ISNSRbCqX4HyM1KHSSgOAU7kVIoizGpOqO9lXJnqQ0T4p3hPuPPGmp
+6U9+17Gt6Z6hKR3PvfozuPE7SWwZ2NiB++fp32xqKZ26ccGCtDETHl6E48q9hWvV
+lTVqZOaE7sd8e/LQ2Ju+3tS99YeCcy+OKjBP/VGRs6cg0Hh2ftr9+b6BrhvaZqQc
+aOxP+Th3YfGjuoYlaU2Xjg3N/ro3veflA+9Ou5DZnjxrTv4jvH/R+a6QRb8oKSmo
+/fXYQHNlxukPm1eO3Js0s+7Wwb7ipXuP9L6SijPz2icVNU71bY28OXn3iaSa0b3T
+l54t2vm8N6v1VFJbiHvrjeXRZdE38um47HV7Vj3z5ZGVuy9ZrXfaW89tsMHqnnMv
+zmle8frUzoHLCy/rx8tWzBjo6rxa88vN97IL9vuaNvdV9WfUysfbztQb35/Zlzrx
+ZNOkk4VfVS5+tqvDqM2a/N7oup6a65fvDz6yj27rPh1uSUfLDuc8WJ390Tz+MLs5
+VDd+0epJKd2zP8jZmRWePG1H5/V3xt8/XNuQ+XSNnH9iQ9ulpscTt1XfXd5SqJdP
+eGHx2aGF3oyiztdav92VV/xbbKCq8f0ZO/qzz6dW+OvHrqvdYl+dfe34lIaXyhoz
+zNr1matut3Q20MbuXWPGRn+4OxHPemuEl3y+NKDfM56KXv/0alHelU9+7MsvJvfW
+zDv/3U8Vdw6Gjz4YfKCO9xza93bIe2rUiaLRhReCvPlWX86M+XBd2agzWSUp6vYR
+u+d+Vplc1zbtihmX/wSuFfzp
+=F/Zu
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/markgandolfo
+
+==================================================================
+
