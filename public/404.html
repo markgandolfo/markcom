@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // GitHub Pages SPA redirect solution
+      // Store the path and redirect to index.html
+      sessionStorage.setItem('redirect', location.pathname + location.search + location.hash);
+      location.replace(location.origin);
+    </script>
+  </head>
+  <body></body>
+</html>
